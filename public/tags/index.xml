@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Daniel Reis Pereira</title>
+    <title>Tags on Daniel Reis Pereira 2</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Daniel Reis Pereira</description>
+    <description>Recent content in Tags on Daniel Reis Pereira 2</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © JOHN DOE</copyright>
@@ -90,6 +90,15 @@
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weather Forecast</title>
+      <link>/tags/weather-forecast/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/weather-forecast/</guid>
       <description></description>
     </item>
     
