@@ -1,0 +1,64 @@
+---
+title: dplyr_** examples, oh!
+author: ~
+date: '2017-09-14'
+slug: dplyr-example-oh
+categories: [r, dplyr, data_munging]
+tags: [r, dplyr]
+description: 'advanced example on dplyr, from youtube'
+---
+
+`SuperDataScience` has an interesting example of using the advanced dplyr functions (summarise_xx, mutate_xx as well as starts_with() and one_of() ) on top of the `AirPassengers` data. 
+Watch the video here: https://youtu.be/cavtFdvII4A
+
+And here's the code:
+
+Create the dataset:
+```{r}
+library(dplyr)
+library(tidyverse)
+
+air_passengers <- data.frame(matrix(AirPassengers,
+                                    ncol=12,
+                                    byrow = T,
+                                    dimnames = list(as.character(1:12), month.abb)
+                                    )
+                             )
+air_passengers$year <- as.character(1949:1960)
+```
+
+Let's use select() to reorder columns:
+```{r}
+
+# reorder column
+air_passengers <-  air_passengers %>% 
+  select(year, everything())
+
+# what is the max for each variable?
+max_flights <- air_passengers %>% 
+  summarise_all(max)
+
+# if I want the max for EACH month:
+max_each_month <- air_passengers %>% 
+    summarise_if(is.numeric, max)
+
+# the chr variable did not get summarised!
+str(air_passengers)
+```
+
+Here's how to use summarise_at():
+```{r}
+# mean flights for each month starting with "J"
+mean_flights_j <- air_passengers %>% 
+  summarise_at(vars(starts_with("J")), mean)
+```
+
+Note the difference summarise_at and summarise_if:  
+
+
+Now if we want to explore the `mutate_**()` functions family:
+```{r}
+# add columns for Jan/Feb/Mar with their median flights:
+air_passengers <- air_passengers %>% 
+  mutate_at(vars(one_of(month.abb[1:3])), funs(med = median))
+```

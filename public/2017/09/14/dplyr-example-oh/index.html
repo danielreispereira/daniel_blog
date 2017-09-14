@@ -4,7 +4,7 @@
 
  <html class="no-js"> 
 <head>
-    <title>Hello R Markdown &middot; Daniel Reis Pereira 2</title>
+    <title>dplyr_** examples, oh! &middot; Daniel Reis Pereira 2</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="content-language" content="en-us" />
@@ -76,51 +76,78 @@
                 <div class="feat">
                     <h5 class="page-date">
                     <time datetime="" itemprop="datePublished">
-                    23. July 2015
+                    14. September 2017
                     </time>
                     </h5>
                 </div>
-                <h1 class="page-title" itemprop="name headline">Hello R Markdown</h1>
+                <h1 class="page-title" itemprop="name headline">dplyr_** examples, oh!</h1>
                 <div itemprop="articleBody">
-                    <div id="r-markdown" class="section level1">
-<h1>R Markdown</h1>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>You can embed an R code chunk like this:</p>
-<pre class="r"><code>summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &lt;- lm(dist ~ speed, data = cars)
-fit
+                    <p><code>SuperDataScience</code> has an interesting example of using the advanced dplyr functions (summarise_xx, mutate_xx as well as starts_with() and one_of() ) on top of the <code>AirPassengers</code> data. Watch the video here: <a href="https://youtu.be/cavtFdvII4A" class="uri">https://youtu.be/cavtFdvII4A</a></p>
+<p>And here’s the code:</p>
+<p>Create the dataset:</p>
+<pre class="r"><code>library(dplyr)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
 ## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
 ## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932</code></pre>
-</div>
-<div id="including-plots" class="section level1">
-<h1>Including Plots</h1>
-<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
-<pre class="r"><code>par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
-  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
-  init.angle = -50, border = NA
-)</code></pre>
-<div class="figure"><span id="fig:pie"></span>
-<img src="/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
-<p class="caption">
-Figure 1: A fancy pie chart.
-</p>
-</div>
-</div>
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## Loading tidyverse: ggplot2
+## Loading tidyverse: tibble
+## Loading tidyverse: tidyr
+## Loading tidyverse: readr
+## Loading tidyverse: purrr</code></pre>
+<pre><code>## Conflicts with tidy packages ----------------------------------------------</code></pre>
+<pre><code>## filter(): dplyr, stats
+## lag():    dplyr, stats</code></pre>
+<pre class="r"><code>air_passengers &lt;- data.frame(matrix(AirPassengers,
+                                    ncol=12,
+                                    byrow = T,
+                                    dimnames = list(as.character(1:12), month.abb)
+                                    )
+                             )
+air_passengers$year &lt;- as.character(1949:1960)</code></pre>
+<p>Let’s use select() to reorder columns:</p>
+<pre class="r"><code># reorder column
+air_passengers &lt;-  air_passengers %&gt;% 
+  select(year, everything())
+
+# what is the max for each variable?
+max_flights &lt;- air_passengers %&gt;% 
+  summarise_all(max)
+
+# if I want the max for EACH month:
+max_each_month &lt;- air_passengers %&gt;% 
+    summarise_if(is.numeric, max)
+
+# the chr variable did not get summarised!
+str(air_passengers)</code></pre>
+<pre><code>## &#39;data.frame&#39;:    12 obs. of  13 variables:
+##  $ year: chr  &quot;1949&quot; &quot;1950&quot; &quot;1951&quot; &quot;1952&quot; ...
+##  $ Jan : num  112 115 145 171 196 204 242 284 315 340 ...
+##  $ Feb : num  118 126 150 180 196 188 233 277 301 318 ...
+##  $ Mar : num  132 141 178 193 236 235 267 317 356 362 ...
+##  $ Apr : num  129 135 163 181 235 227 269 313 348 348 ...
+##  $ May : num  121 125 172 183 229 234 270 318 355 363 ...
+##  $ Jun : num  135 149 178 218 243 264 315 374 422 435 ...
+##  $ Jul : num  148 170 199 230 264 302 364 413 465 491 ...
+##  $ Aug : num  148 170 199 242 272 293 347 405 467 505 ...
+##  $ Sep : num  136 158 184 209 237 259 312 355 404 404 ...
+##  $ Oct : num  119 133 162 191 211 229 274 306 347 359 ...
+##  $ Nov : num  104 114 146 172 180 203 237 271 305 310 ...
+##  $ Dec : num  118 140 166 194 201 229 278 306 336 337 ...</code></pre>
+<p>Here’s how to use summarise_at():</p>
+<pre class="r"><code># mean flights for each month starting with &quot;J&quot;
+mean_flights_j &lt;- air_passengers %&gt;% 
+  summarise_at(vars(starts_with(&quot;J&quot;)), mean)</code></pre>
+<p>Note the difference summarise_at and summarise_if:</p>
+<p>Now if we want to explore the <code>mutate_**()</code> functions family:</p>
+<pre class="r"><code># add columns for Jan/Feb/Mar with their median flights:
+air_passengers &lt;- air_passengers %&gt;% 
+  mutate_at(vars(one_of(month.abb[1:3])), funs(med = median))</code></pre>
 
                 </div>
                 <div class="feat share">
@@ -156,7 +183,7 @@ Figure 1: A fancy pie chart.
                     </a>
                 
                 
-                    <a rel="prev" href="https://danielreispereira.netlify.com/2014/04/02/hugo-template-primer/" id="prev">
+                    <a rel="prev" href="https://danielreispereira.netlify.com/2015/07/23/hello-r-markdown/" id="prev">
                         &larr; <span class="nav-title nav-title-prev">Older</span>
                     </a>
                 
