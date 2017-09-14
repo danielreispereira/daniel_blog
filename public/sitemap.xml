@@ -3,176 +3,176 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://danielreispereira.netlify.com/2014/09/28/creating-a-new-theme/</loc>
+    <loc>/2014/09/28/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/2014/03/10/migrate-to-hugo-from-jekyll/</loc>
+    <loc>/2014/03/10/migrate-to-hugo-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/2017/09/14/usa-long-range/</loc>
+    <loc>/2017/09/14/usa-long-range/</loc>
     <lastmod>2017-09-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/2017/09/14/dplyr-example-oh/</loc>
+    <loc>/2017/09/14/dplyr-example-oh/</loc>
     <lastmod>2017-09-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/2017/09/14/dplyr-example-oh/</loc>
+    <loc>/2017/09/14/dplyr-example-oh/</loc>
     <lastmod>2017-09-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/2015/07/23/hello-r-markdown/</loc>
+    <loc>/2015/07/23/hello-r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/2014/04/02/hugo-template-primer/</loc>
+    <loc>/2014/04/02/hugo-template-primer/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/2014/04/02/getting-started-with-hugo/</loc>
+    <loc>/2014/04/02/getting-started-with-hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/1/01/01/</loc>
+    <loc>/1/01/01/</loc>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/</loc>
+    <loc>/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/categories/data_munging/</loc>
+    <loc>/categories/data_munging/</loc>
     <lastmod>2017-09-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/tags/development/</loc>
+    <loc>/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/categories/development/</loc>
+    <loc>/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/tags/dplyr/</loc>
+    <loc>/tags/dplyr/</loc>
     <lastmod>2017-09-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/categories/dplyr/</loc>
+    <loc>/categories/dplyr/</loc>
     <lastmod>2017-09-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/tags/go/</loc>
+    <loc>/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/tags/golang/</loc>
+    <loc>/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/categories/golang/</loc>
+    <loc>/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/tags/hugo/</loc>
+    <loc>/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/tags/plot/</loc>
+    <loc>/tags/plot/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/tags/r/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2017-09-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/categories/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2017-09-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/tags/r-markdown/</loc>
+    <loc>/tags/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/tags/regression/</loc>
+    <loc>/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/tags/templates/</loc>
+    <loc>/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/tags/themes/</loc>
+    <loc>/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/categories/weather/</loc>
+    <loc>/categories/weather/</loc>
     <lastmod>2017-09-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://danielreispereira.netlify.com/tags/weather-forecast/</loc>
+    <loc>/tags/weather-forecast/</loc>
     <lastmod>2017-09-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

@@ -8,7 +8,7 @@ tags: [r, dplyr]
 description: 'advanced example on dplyr, from youtube'
 ---
 
-`SuperDataScience` has an interesting example of using the advanced dplyr functions (summarise_xx, mutate_xx as well as starts_with() and one_of() ) on top of the `AirPassengers` data. 
+Today `SuperDataScience` teached an interesting example of using the advanced dplyr functions (summarise_xx, mutate_xx as well as starts_with() and one_of() ) on top of the `AirPassengers` data. 
 Watch the video here: https://youtu.be/cavtFdvII4A
 
 And here's the code:
