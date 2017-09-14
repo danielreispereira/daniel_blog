@@ -2,103 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Daniel Reis Pereira 2</title>
-    <link>/tags/</link>
+    <link>https://danielpereira.netlify.com/tags/</link>
     <description>Recent content in Tags on Daniel Reis Pereira 2</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © JOHN DOE</copyright>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://danielpereira.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development</title>
-      <link>/tags/development/</link>
+      <link>https://danielpereira.netlify.com/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/tags/development/</guid>
+      <guid>https://danielpereira.netlify.com/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>/tags/go/</link>
+      <link>https://danielpereira.netlify.com/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/tags/go/</guid>
+      <guid>https://danielpereira.netlify.com/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>/tags/golang/</link>
+      <link>https://danielpereira.netlify.com/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/tags/golang/</guid>
+      <guid>https://danielpereira.netlify.com/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>/tags/hugo/</link>
+      <link>https://danielpereira.netlify.com/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/tags/hugo/</guid>
+      <guid>https://danielpereira.netlify.com/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plot</title>
-      <link>/tags/plot/</link>
+      <link>https://danielpereira.netlify.com/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/plot/</guid>
+      <guid>https://danielpereira.netlify.com/tags/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
+      <link>https://danielpereira.netlify.com/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
+      <guid>https://danielpereira.netlify.com/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Regression</title>
-      <link>/tags/regression/</link>
+      <link>https://danielpereira.netlify.com/tags/regression/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/regression/</guid>
+      <guid>https://danielpereira.netlify.com/tags/regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Templates</title>
-      <link>/tags/templates/</link>
+      <link>https://danielpereira.netlify.com/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/tags/templates/</guid>
+      <guid>https://danielpereira.netlify.com/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Themes</title>
-      <link>/tags/themes/</link>
+      <link>https://danielpereira.netlify.com/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/tags/themes/</guid>
+      <guid>https://danielpereira.netlify.com/tags/themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Weather Forecast</title>
-      <link>/tags/weather-forecast/</link>
+      <link>https://danielpereira.netlify.com/tags/weather-forecast/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/weather-forecast/</guid>
+      <guid>https://danielpereira.netlify.com/tags/weather-forecast/</guid>
       <description></description>
     </item>
     
