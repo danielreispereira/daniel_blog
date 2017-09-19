@@ -2,7 +2,7 @@ baseurl = "https://danielreispereira.netlify.com/"
 languageCode = "en-us"
 title = "Daniel 2"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "spf13"
+disqusShortname = "drpnetlify"
 
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
@@ -12,9 +12,9 @@ theme = "hugo-hikari-theme"
 	post = "/:year/:month/:day/:slug"
 
 [params]
-	name = "Your name"
-	description = "Describe your website"
-	copyright = "POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © JOHN DOE"
+	name = "Daniel"
+	description = "Personal random stuff"
+	copyright = "POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © DANIEL "
 
 	# Custom assets can be linked with their paths relative to static/
 	custom_css = []
@@ -29,18 +29,18 @@ theme = "hugo-hikari-theme"
 
 [params.offcanvas]
 	# Menu items
-	title = "Hi, I'm John Doe"
+	title = "Hi, I'm Daniel"
 	bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, pariatur!"
 	subscribe = "Subscribe"
 	followme = "Follow me on"
 
 	# Enable Google search
-	search_enabled = false
+	search_enabled = true
 	search = "Search"
 
 	[[params.offcanvas.socialnetworks]]
 		name = "Github"
-		url = "//github.com/spf13"
+		url = "//github.com/danielreispereira"
 
 	[[params.offcanvas.socialnetworks]]
 		name = "Twitter"
