@@ -33,7 +33,7 @@ theme = "hugo-hikari-theme"
 [params.offcanvas]
 	# Menu items
 	title = "Hi, I'm Daniel"
-	bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, pariatur!"
+	bio = "Learning blogdown in the coming weeks!"
 	subscribe = "Subscribe"
 	followme = "Follow me on"
 
