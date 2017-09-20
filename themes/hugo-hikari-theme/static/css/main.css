@@ -2,8 +2,8 @@
 
 html {
     font-family: sans-serif;
-    -ms-text-size-adjust: 80%;
-    -webkit-text-size-adjust: 80%
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
 }
 body {
     margin: 0
@@ -49,7 +49,7 @@ abbr[title] {
 }
 b,
 strong {
-    font-weight: 600
+    font-weight: 700
 }
 dfn {
     font-style: italic
@@ -97,7 +97,7 @@ kbd,
 pre,
 samp {
     font-family: monospace, monospace;
-    font-size: 0.9em
+    font-size: 1em
 }
 button,
 input,
@@ -200,7 +200,7 @@ html {
     height: 100%
 }
 body {
-    font: 1.00em "Open Sans", sans-serif;
+    font: 1.25em "Open Sans", sans-serif;
     color: #333;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -212,7 +212,7 @@ body {
     }
 }
 @media (max-width: 642px) {
-    body {
+    body {3r
         font-size: .875em
     }
 }
@@ -229,25 +229,25 @@ h6 {
     font-family: 'Open Sans', sans-serif
 }
 h1 {
-    font-size: 150%;
+    font-size: 250%;
     margin: .5em 0
 }
 h2 {
-    font-size: 130%;
+    font-size: 180%;
     font-style: italic;
     margin: 1em 0 .5em
 }
 h3,
 .h-wrap h1.title,
 .off-canvas .bio h1 {
-    font-size: 100%;
+    font-size: 150%;
     font-weight: lighter;
     margin: 1.5em 0 .5em
 }
 h4,
 h5,
 h6 {
-    font-size: 60%;
+    font-size: 80%;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -951,7 +951,7 @@ footer small {
 .pagination span {
     box-sizing: border-box;
     float: left;
-    width: 100%;
+    width: 50%;
     padding: 20px;
     text-decoration: none
 }

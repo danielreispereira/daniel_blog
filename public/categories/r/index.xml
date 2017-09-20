@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Daniel 3</title>
-    <link>/categories/r/</link>
+    <link>https://danielreispereira.netlify.com/categories/r/</link>
     <description>Recent content in R on Daniel 3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>POWERED BY [HUGO](//gohugo.io) - Based on [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © DANIEL 2017 </copyright>
     <lastBuildDate>Thu, 14 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://danielreispereira.netlify.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>dplyr_** examples, oh!</title>
-      <link>/2017/09/14/dplyr-example-oh/</link>
+      <link>https://danielreispereira.netlify.com/2017/09/14/dplyr-example-oh/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/09/14/dplyr-example-oh/</guid>
+      <guid>https://danielreispereira.netlify.com/2017/09/14/dplyr-example-oh/</guid>
       <description>Today SuperDataScience teached an interesting example of using the advanced dplyr functions (summarise_xx, mutate_xx as well as starts_with() and one_of() ) on top of the AirPassengers data. Watch the video here: https://youtu.be/cavtFdvII4A
 And here’s the code:
 Create the dataset:
@@ -26,10 +26,10 @@ library(dplyr)## ## Attaching package: &amp;#39;dplyr&amp;#39;## The following
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/2015/07/23/hello-r-markdown/</link>
+      <link>https://danielreispereira.netlify.com/2015/07/23/hello-r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/2015/07/23/hello-r-markdown/</guid>
+      <guid>https://danielreispereira.netlify.com/2015/07/23/hello-r-markdown/</guid>
       <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>

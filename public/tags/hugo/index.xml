@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Daniel 3</title>
-    <link>/tags/hugo/</link>
+    <link>https://danielreispereira.netlify.com/tags/hugo/</link>
     <description>Recent content in Hugo on Daniel 3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>POWERED BY [HUGO](//gohugo.io) - Based on [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © DANIEL 2017 </copyright>
     <lastBuildDate>Wed, 20 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://danielreispereira.netlify.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo Learning Resource</title>
-      <link>/2017/09/20/hugo-learning-resource/</link>
+      <link>https://danielreispereira.netlify.com/2017/09/20/hugo-learning-resource/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/09/20/hugo-learning-resource/</guid>
+      <guid>https://danielreispereira.netlify.com/2017/09/20/hugo-learning-resource/</guid>
       <description>If you are learning Hugo and &amp;lsquo;blogdown&amp;rsquo;, the giraffeacademy set of videos should be of great help, check it out:
  http://www.giraffeacademy.com/
  http://www.giraffeacademy.com/static-site-generators/hugo/
@@ -26,10 +26,10 @@
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>/2014/04/02/getting-started-with-hugo/</link>
+      <link>https://danielreispereira.netlify.com/2014/04/02/getting-started-with-hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/2014/04/02/getting-started-with-hugo/</guid>
+      <guid>https://danielreispereira.netlify.com/2014/04/02/getting-started-with-hugo/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
