@@ -5,7 +5,7 @@ title = "Daniel 3"
 disqusShortname = "drpnetlify"
 
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-106750155-1"
 theme = "hugo-hikari-theme"
 
 [permalinks]
@@ -14,7 +14,7 @@ theme = "hugo-hikari-theme"
 [params]
 	name = "Daniel"
 	description = "Personal random stuff"
-	copyright = "POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © DANIEL "
+	copyright   = "POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © DANIEL "
 
 	# Custom assets can be linked with their paths relative to static/
 	custom_css = []
@@ -26,8 +26,6 @@ theme = "hugo-hikari-theme"
 	
 	# width of whole website
 	width = "1500px"
-	
-	languageCode = "C"
 
 	pageNotFoundTitle = "Page not found"
 	pageNotFoundSubtitle = "Sorry, but the requested page wasn’t <br> found on the server."
