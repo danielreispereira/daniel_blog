@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Daniel 3</title>
-    <link>https://danielreispereira.netlify.com/tags/hugo/</link>
+    <link>https://danielreispereira.netlify.com/categories/hugo/</link>
     <description>Recent content in Hugo on Daniel 3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © DANIEL </copyright>
     <lastBuildDate>Wed, 20 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://danielreispereira.netlify.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://danielreispereira.netlify.com/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,20 +22,6 @@
  http://www.giraffeacademy.com/
  http://www.giraffeacademy.com/static-site-generators/hugo/
   </description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://danielreispereira.netlify.com/2014/04/02/getting-started-with-hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://danielreispereira.netlify.com/2014/04/02/getting-started-with-hugo/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
     </item>
     
   </channel>

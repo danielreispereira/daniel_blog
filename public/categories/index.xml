@@ -2,66 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Daniel 3</title>
-    <link>/categories/</link>
+    <link>https://danielreispereira.netlify.com/categories/</link>
     <description>Recent content in Categories on Daniel 3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © DANIEL </copyright>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://danielreispereira.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Data_munging</title>
-      <link>/categories/data_munging/</link>
+      <link>https://danielreispereira.netlify.com/categories/data_munging/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/data_munging/</guid>
+      <guid>https://danielreispereira.netlify.com/categories/data_munging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>/categories/development/</link>
+      <link>https://danielreispereira.netlify.com/categories/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/categories/development/</guid>
+      <guid>https://danielreispereira.netlify.com/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dplyr</title>
-      <link>/categories/dplyr/</link>
+      <link>https://danielreispereira.netlify.com/categories/dplyr/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/dplyr/</guid>
+      <guid>https://danielreispereira.netlify.com/categories/dplyr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>/categories/golang/</link>
+      <link>https://danielreispereira.netlify.com/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/categories/golang/</guid>
+      <guid>https://danielreispereira.netlify.com/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://danielreispereira.netlify.com/categories/hugo/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://danielreispereira.netlify.com/categories/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/categories/r/</link>
+      <link>https://danielreispereira.netlify.com/categories/r/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/r/</guid>
+      <guid>https://danielreispereira.netlify.com/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Weather</title>
-      <link>/categories/weather/</link>
+      <link>https://danielreispereira.netlify.com/categories/weather/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/weather/</guid>
+      <guid>https://danielreispereira.netlify.com/categories/weather/</guid>
       <description></description>
     </item>
     
