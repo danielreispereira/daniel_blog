@@ -35,16 +35,6 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
-      <title>USA Long-Range</title>
-      <link>/2017/09/14/usa-long-range/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/09/14/usa-long-range/</guid>
-      <description>long range forecast summary
-  6-10 day forecast 8-14 day outlook 30 day outlook</description>
-    </item>
-    
-    <item>
       <title>dplyr_** examples, oh!</title>
       <link>/2017/09/14/dplyr-example-oh/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
@@ -54,6 +44,16 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
 And here’s the code:
 Create the dataset:
 library(dplyr)## ## Attaching package: &amp;#39;dplyr&amp;#39;## The following objects are masked from &amp;#39;package:stats&amp;#39;:## ## filter, lag## The following objects are masked from &amp;#39;package:base&amp;#39;:## ## intersect, setdiff, setequal, unionlibrary(tidyverse)## Loading tidyverse: ggplot2## Loading tidyverse: tibble## Loading tidyverse: tidyr## Loading tidyverse: readr## Loading tidyverse: purrr## Conflicts with tidy packages ----------------------------------------------## filter(): dplyr, stats## lag(): dplyr, statsair_passengers &amp;lt;- data.</description>
+    </item>
+    
+    <item>
+      <title>USA Forecast (mostly long-range)</title>
+      <link>/2017/07/26/usa-long-range/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/07/26/usa-long-range/</guid>
+      <description>Note that the maps above are organized by:
+ first row : 6-10 day forecast second row : 8-14 day outlook third row : 30-day outlook  </description>
     </item>
     
     <item>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Weather Forecast on Daniel 3</title>
-    <link>/tags/weather-forecast/</link>
-    <description>Recent content in Weather Forecast on Daniel 3</description>
+    <title>Weather Forecast Maps on Daniel 3</title>
+    <link>/categories/weather-forecast-maps/</link>
+    <description>Recent content in Weather Forecast Maps on Daniel 3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>POWERED BY [HUGO](//gohugo.io) - Based on [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © DANIEL 2017 </copyright>
     <lastBuildDate>Wed, 26 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/weather-forecast/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/weather-forecast-maps/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
