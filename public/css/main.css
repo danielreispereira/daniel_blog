@@ -706,18 +706,19 @@ footer small {
 }
 .posts li .p-wrap {
     padding: 2.5em 2em;
-    background: #7b68ee;
-    transition: all .15s ease-in
+    background: #3419db;
+    transition: all .10s ease-in
 }
 .posts li .p-wrap:active {
-    background: #6f5aec
+    background: #200f86
 }
+
 .posts li .p-wrap:hover {
-    background: #8776f0;
-    padding-left: 3em
+    background: #200f86 ;
+    padding-left: 3.25em
 }
 .posts li .p-wrap:hover::after {
-    content: '\2192';
+    content: '\2192' ;
     margin-left: .5em
 }
 @media (max-width: 942px) {
