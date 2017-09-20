@@ -24,9 +24,6 @@ theme = "hugo-hikari-theme"
 	newer = "Newer"
 	older = "Older"
 	
-	# width of whole website
-	width = "1500px"
-
 	pageNotFoundTitle = "Page not found"
 	pageNotFoundSubtitle = "Sorry, but the requested page wasn’t <br> found on the server."
 
