@@ -23,6 +23,11 @@ theme = "hugo-hikari-theme"
 	# Links to newer/older blog posts
 	newer = "Newer"
 	older = "Older"
+	
+	# width of whole website
+	width = "1500px"
+	
+	languageCode = "C"
 
 	pageNotFoundTitle = "Page not found"
 	pageNotFoundSubtitle = "Sorry, but the requested page wasn’t <br> found on the server."
